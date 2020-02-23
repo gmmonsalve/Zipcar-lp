@@ -1,3 +1,28 @@
 body{
     font-family: 'Roboto';
+    
+}
+.carousel.main-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.carousel.slide{
+    width: 140vh;
+    height: 70vh;
+}
+
+.carousel-img{
+    width: 140vh;
+    height: 70vh;
+}
+
+
+.join-button:hover{
+    color:#6cb33e;
+    background-color:white;
 }
