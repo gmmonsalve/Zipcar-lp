@@ -16,10 +16,13 @@ body {
     margin-right: .75rem;
     margin-left: .75rem;
 }
-
+.carousel-img-ml{
+   margin-left: 210px;
+         
+}
 .carousel-img {
-    width: 600px;
-    height: 200px;
+    max-width: auto;
+    max-height: auto;
 
 
 }

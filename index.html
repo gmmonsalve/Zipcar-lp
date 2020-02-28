@@ -26,12 +26,12 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <nav class="navbar navbar-expand-lg navbar-light bg-success ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
       <ul class="navbar-nav mr-auto">
         <img src="./img/logo.svg">
       </ul>
@@ -90,16 +90,60 @@
   
 
   <div class="d-flex flex-column bd-highlight mb-3"
-    style="max-height: fit-content;height: 80vh; max-width: fit-content;">
+    style="max-height: fit-content;height: fit-content; max-width: fit-content;">
     <h1 class="text-white p-5 bd-highlight" style="position: absolute; font-size: 30px; font-weight: bold;">Access to
       cars near you, 24/7</h1>
     <h2 class="text-white p-5 mt-5 bd-highlight" style="position: absolute; font-size: 15px; ">The freedom of cars on
       demand in hundreds of cities, <br>ready to book by the hour or day.</br></h2>
-    <img src="./img/back2.png" class="selectDisable" style="max-height: 120%; max-width: 100%; z-index: -1;">
+    <img src="./img/back2.png" class="selectDisable" style="max-height: 100%; max-width: 100%; z-index: -1;">
   </div>
+  <h1 class=" text-center  bd-highlight" style="font-size: 30px; font-weight: bold;">
+    Check out our catalog </h1>
 
 
-  <div class="container marketing">
+
+  <div class="d-flex  align-items-center ml-5 justify-content-between" style="width: 95%;height: 400px;">
+    <div class="d-flex flex-column" style="max-width: 30%;">
+      <h2>
+        Car description
+      </h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non maxime eaque aut soluta eius explicabo consequatur. Expedita eaque beatae magnam voluptate. Ad itaque sed ratione autem rem beatae, molestias eaque, rerum eligendi nisi nam quidem vitae? Nesciunt, quisquam explicabo nisi ipsa enim exercitationem sequi nemo, voluptas placeat alias omnis voluptates.
+    </p>
+    </div>
+    <div id="myCarousel" class="carousel slide d-flex mr-5" data-ride="carousel" style="background-color:rgb(235, 235, 235); border-radius: 25px;width:700px; height: 300px;">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner d-flex align-items-center" >
+        <div class="carousel-item active carousel-img-ml">
+          <img class="carousel-img first-slide" src="./img/car1.png" alt="First slide">
+        </div>
+        <div class="carousel-item carousel-img-ml" >
+          <img class="carousel-img second-slide" src="./img/car2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item carousel-img-ml" >
+          <img class="carousel-img third-slide" src="./img/car3.png" alt="Third slide">
+        </div>
+        <div class="carousel-item carousel-img-ml" >
+          <img class="carousel-img third-slide" src="./img/car4.png" alt="Third slide">
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+       </div>
+      </div>
+    </div>
+  
+  <div class="container marketing mt-5">
 
     <div class="row">
       <div class="col-lg-4">
