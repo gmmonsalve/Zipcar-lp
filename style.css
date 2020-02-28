@@ -1,31 +1,45 @@
-
-
-body{
+body {
     font-family: 'Roboto';
-    
+
 }
 
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
 
-.carousel-img{
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.carousel-img {
     width: 600px;
     height: 200px;
-  
-    
+
+
 }
-.carousel-caption{
+
+.carousel-caption {
     width: 400px;
     height: 200px;
 }
-.imgContainer{
+
+.imgContainer {
     margin: auto;
 }
 
 
-.join-button:hover{
-    color:#6cb33e;
-    background-color:white;
+.join-button:hover {
+    color: #6cb33e;
+    background-color: white;
 }
-.selectDisable{
+
+.selectDisable {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -34,9 +48,8 @@ body{
 }
 
 .shadowed {
-    -webkit-box-shadow: 3px 12px 19px -11px rgba(0,0,0,0.29);
-    -moz-box-shadow: 3px 12px 19px -11px rgba(0,0,0,0.29);
-    box-shadow: 3px 12px 19px -11px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 3px 12px 19px -11px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 3px 12px 19px -11px rgba(0, 0, 0, 0.29);
+    box-shadow: 3px 12px 19px -11px rgba(0, 0, 0, 0.29);
 
 }
-
